@@ -4,7 +4,10 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public class Health : MonoBehaviour
+
 {
+    [SerializeField] private BARRADEVIDA barradevida;
+
     [SerializeField]
     private int currentHealth, maxHealth;
 
